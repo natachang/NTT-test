@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usuarios Aleatorios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Usuarios Aleatorios</h1>
+      <div class="table-responsive">
+        <table class="table" id="usersTable">
+          <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Género</th>
+                <th>Ubicación</th>
+                <th>Correo electrónico</th>
+                <th>Fecha de nacimiento</th>
+                <th>Fotografía</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Datos desde JS -->
+          </tbody>
+        </table>
+      </div>
+      <div id="statusMessage" class="status-message" role="alert" aria-live="polite">
+        <!-- JS colocará aquí el mensaje -->
+      </div>
+    </div>
+    <!-- Mensaje por defecto (oculto hasta que se use) -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
